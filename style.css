@@ -239,12 +239,19 @@
     .bar:hover{
         background-color: azure;
     }
-  .card{
-    border: 1px solid black;
-    width: auto;
-    height: 300px;
-    margin: 15px;
-    background-color: #BEA7E5;
-    border-radius: 10px;
-}
+
+    .card{
+        border: 1px solid black;
+        width: 238px;
+        height:auto;
+        margin: 30px;
+        background-color: #BEA7E5;
+        border-radius: 10px;
+    }
+    
+    .image>img{
+        width: 240px;
+        height: 180px;
+        border-radius: 10px;
+    }   
 }
