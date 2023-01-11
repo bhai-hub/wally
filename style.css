@@ -1,0 +1,242 @@
+/* 
+#6B4B3E
+#C49E85
+#FFD6AF
+#F8F4F9
+#BEA7E5
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+  
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif; 
+}
+
+.header{
+    display: flex;
+    background-color: #C49E85;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 10px 0px 0px 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.logo>span>a{
+    text-decoration: none;
+    color: black;
+}
+#input{
+    margin-top: 15px;
+    margin-right: 100px;
+    height: 30px;
+    width: auto;
+    line-height: 30px;
+} 
+
+#query{
+    width: 600px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+}
+
+.btn1{
+    height: 39px;
+    padding: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    transition: all, 0.2s;
+}
+
+.btn1:hover{
+    background-color: #BEA7E5;
+    color: white;
+}
+
+.main{
+    background-color: #FFD6AF;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.title{
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 34px;
+    font-weight: 500
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid black;
+    width: auto;
+    height: 300px;
+    margin: 30px;
+    background-color: #BEA7E5;
+    border-radius: 10px;
+}
+
+.image>img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.conclusion{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits{
+    text-align: center;
+}
+
+.desc{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn2{
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: ease-in, 0.2s;
+}
+
+.btn2:hover{
+    color: white;
+    background-color: black;
+}
+
+.icon_menu{
+    display: none;
+}
+
+
+@media screen and (max-width: 1500px) {
+        .header{
+            display: flex;
+            background-color: #C49E85;
+            height: 70px;
+            justify-content: space-between;
+        }
+        
+        .logo{
+            margin: 10px 0px 0px 20px;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        
+        .logo>span>a{
+            text-decoration: none;
+            color: black;
+        }
+        #input{
+            margin-top: 15px;
+            margin-right: 50px;
+            height: 30px;
+            width: auto;
+            line-height: 30px;
+        } 
+        
+        #query{
+            width: 300px;
+            height: 25px;
+            padding: 5px;
+            border: none;
+        }
+        
+        .btn1{
+            height: 30px;
+            padding: 2px;
+            font-weight: 500;
+            font-size: 18px;
+            background-color: white;
+            border: none;
+            transition: all, 0.2s;
+        }
+}
+
+@media screen and (max-width: 568px){
+    .header{
+        display: block;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .logo{
+        margin: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .text{
+        margin: 10px 0px 0px 20px;
+            font-size: 30px;
+            font-weight: 600;
+    }
+    .search{
+        display: none;      
+        margin-top: 20px;
+        text-align: center;
+    }
+    .icon_menu{
+        display: block;
+        margin-top: 15px;
+        margin-right: 50px;
+        line-height: 30px;
+    }
+    .bar{
+        width: 30px;
+        font-size: 25px;
+        background-color: transparent;
+        border: none;
+        transition: ease-in-out, 0.5s;
+        border-radius: 5px;
+    }
+
+    #input{
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 30px;
+        width: auto;
+        line-height: 30px;
+    } 
+    
+    #query{
+        width: 200px;
+        height: 20px;
+        padding: 5px;
+        border: none;
+    }
+
+    .bar:hover{
+        background-color: azure;
+    }
+}
